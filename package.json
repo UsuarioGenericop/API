@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/UsuarioGenericop/API/issues"
   },
-  "homepage": "https://github.com/UsuarioGenericop/API#readme"
+  "homepage": "https://github.com/UsuarioGenericop/API#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
