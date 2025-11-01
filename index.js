@@ -5,4 +5,4 @@ app.listen( PORT,
 () => console.log(`it's alive on http://localhost:${PORT}'`)
 )
 
-app.get('/tshirt');
+app.get('/tshirt');//i dont understand this shit
