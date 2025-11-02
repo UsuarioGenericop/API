@@ -5,4 +5,7 @@ app.listen( PORT,
 () => console.log(`it's alive on http://localhost:${PORT}'`)
 )
 
-app.get('/tshirt');//i dont understand this shit
+app.get('/tshirt', (req, res) => {
+res.status(200).send({
+tshirt: 'tshirt', size: 'large'})
+});
