@@ -9,3 +9,6 @@ app.get('/tshirt', (req, res) => {
 res.status(200).send({
 tshirt: 'tshirt', size: 'large'})
 });
+app.post('/tshirt/:id', (req, res) => {
+const {id} = req.params;
+});
